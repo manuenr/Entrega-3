@@ -1,4 +1,74 @@
 
+
+@media screen and (max-width: 768px){
+
+body{
+    background-image: url(https://assets-global.website-files.com/5b882ff386d604828bc7ab04/64ef309ff804e09c0e2abca1_backpo.jpg);
+}
+.anuncio{
+background-color: black;
+padding: 9px;
+
+}
+header{
+    justify-content: center;
+}
+.anuncio p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+header img{
+    width: 300px;
+margin-top: 10px;
+
+display: flex;
+justify-content: center;
+}
+header ul{
+    display: none;
+}
+
+section .menu-hamb{
+    width: 60px;
+    margin-top: 15px;
+}
+.menu-hambu{
+    display: flex;
+    justify-content: center;
+}
+section img{
+    width: 270px;
+    margin-top: 15px;
+ 
+}
+.parcels--logo{
+    display: flex;
+    justify-content: center;
+}
+.boton--order{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color:rgb(99, 60, 199);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+ 
+}
+.pp{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-{
+    color: rgb(92, 187, 146);
+    text-align: center;
+}
+}
+
+@media screen and (min-width: 1024px) {
 body{
     background-image: url(https://assets-global.website-files.com/5b882ff386d604828bc7ab04/64ef309ff804e09c0e2abca1_backpo.jpg);
 }
@@ -177,71 +247,6 @@ div h1{
 .links-1{
     display: none;
 }
-
-
-
-
-
-@media screen and (min-width: 320px) and (max-width: 1024px){
-
-.anuncio{
-background-color: black;
-padding: 9px;
-
 }
-header{
-    justify-content: center;
-}
-.anuncio p{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
-header img{
-    width: 300px;
-margin-top: 10px;
-}
-header ul{
-    display: none;
-}
-
-section .menu-hamb{
-    width: 60px;
-    margin-top: 15px;
-}
-.menu-hambu{
-    display: flex;
-    justify-content: center;
-}
-section img{
-    width: 270px;
-    margin-top: 15px;
- 
-}
-.parcels--logo{
-    display: flex;
-    justify-content: center;
-}
-.boton--order{
-    display: flex;
-    justify-content: center;
-    color: white;
-    background-color:rgb(99, 60, 199);
-    padding: 15px;
-    border-radius: 10px;
-    margin-top: 15px;
- 
-}
-.pp{
-    color: white;
-    text-align: center;
-    margin-top: 20px;
-}
-.footer-{
-    color: rgb(92, 187, 146);
-    text-align: center;
-}
-}
-
 
 
