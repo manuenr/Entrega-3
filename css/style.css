@@ -14,7 +14,14 @@ body{
     text-align: center;
 }
 
-
+header{
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
 nav ul li{
     display: list-item;
 }
@@ -51,6 +58,22 @@ justify-content: center;
     
 
 }
+body header img{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
+.header.contacto{
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 16px;
+
+}
+
 .p1{
     text-align: center;
     padding: 15px;
@@ -93,12 +116,23 @@ section p a:hover{
     background-color: white;
 color:  rgb(100,60,200) ;
 }
+.shop-header{
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.img-shop{
+    width: 300px;
+}
 
 .grid-container{
     border: 3px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 850px 850px 850px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 850px 850px 850px 850px 850px 850px;
     column-gap: 15px;
     row-gap: 15px;
 }
@@ -107,26 +141,26 @@ color:  rgb(100,60,200) ;
 }
 .item-1{
 
-    padding: 250px;
+    padding: 35px;
 }
 .item-2{
-   padding: 250px;
+   padding: 35px;
 }
 .item-3{
-    padding: 250px;
+    padding: 35px;
 }
 .item-4{
-    padding: 250px;
+    padding: 35px;
 }
 .item-5{
-    padding: 250px;
+    padding: 35px;
 }
 .item-6{
-    padding: 250px;
+    padding: 35px;
 }
 
 .item-1 img{
-   width: 450px;
+   width: 250px;
 
 
 }
@@ -135,35 +169,35 @@ color:  rgb(100,60,200) ;
    margin: 3px;
 }
 .item-2 img{
-    width: 450px;
+    width: 250px;
 }
 .item-2 p{
     text-align: center;
     margin: 3px;
 }
 .item-3 img{
-    width: 450px;
+    width: 250px;
 }
 .item-3 p{
     text-align: center;
     margin: 3px;
 }
 .item-4 img{
-    width: 450px;
+    width: 250px;
 }
 .item-4 p{
     text-align: center;
     margin: 3px;
 }
 .item-5 img{
-    width: 450px;
+    width: 250px;
 }
 .item-5 p{
     text-align: center;
     margin: 3px;
 }
 .item-6 img{
-    width: 450px;
+    width: 250px;
 }
 .item-6 p{
     text-align: center;
@@ -182,8 +216,16 @@ div iframe{
 div h1{
     margin-left: 650px;
 }
-.links-1{
-    display: none;
+.videos.header{
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.h1-videos{
+display: none;
 }
 }
 
@@ -365,7 +407,7 @@ div h1{
     margin-left: 650px;
 }
 .links-1{
-    display: none;
+    display: flex;
 }
 }
 
