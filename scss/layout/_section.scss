@@ -1,0 +1,26 @@
+main{
+    section{
+        img{
+            margin-top: 20px;
+            transition: 3s;
+            &:hover{
+                transform: rotate(10deg);
+            }
+        }
+
+    }
+
+    section{
+        p{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-image: linear-gradient(to right, rgb(92, 187, 146), rgb(100, 60, 200));
+            padding: 15px;
+            border-radius: 10px;
+        }
+    }
+
+
+}

@@ -1,0 +1,20 @@
+header{
+    display: flex;
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: end;
+    justify-content: space-between;
+    font-size: 20px;
+
+    nav{
+        ul{
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            li{
+                margin: 5px;
+            }
+        }
+    }
+}
