@@ -14,24 +14,19 @@ body{
                 padding: 15px;
             }
             .p2{
-                text-align: center;
-                padding: 15px;
+            @extend .p1
             }
             .p3{
-                text-align: center;
-                padding: 15px;
+             @extend .p1
             }
             .p4{
-                text-align: center;
-                padding: 15px;
+            @extend .p1
             }
             .p5{
-                text-align: center;
-                padding: 15px;
+            @extend .p1
             }
             .p6{
-                text-align: center;
-                padding: 15px;
+            @extend .p1
             }
         }
     }

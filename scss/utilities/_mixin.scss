@@ -1,0 +1,14 @@
+@mixin boton{
+    color: white;
+    background-color:rgb(99, 60, 199);
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-family: 20px;
+}
+@mixin parrafo{
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+   margin: 3px;
+}

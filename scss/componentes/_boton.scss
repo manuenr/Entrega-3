@@ -1,0 +1,65 @@
+@import "../utilities/mixin";
+.boton-order{
+    @include boton;
+
+    &:hover{
+        background-color: white;
+        color:  rgb(100,60,200) ;
+    }
+}
+
+.boton-1{
+    @include boton;
+    display: grid;
+    justify-items: center;
+    &:hover{
+        background-image: linear-gradient(to right, rgb(92, 187, 146), rgb(100, 60, 200));
+        color: rgb(33, 37, 41);
+    }
+}
+.boton-2{
+    @include boton;
+    display: grid;
+    justify-items: center;
+    &:hover{
+        background-image: linear-gradient(to right, rgb(92, 187, 146), rgb(100, 60, 200));
+        color: rgb(33, 37, 41);
+    }
+}
+.boton-3{
+    @include boton;
+    display: grid;
+    justify-items: center;
+    &:hover{
+        background-image: linear-gradient(to right, rgb(92, 187, 146), rgb(100, 60, 200));
+        color: rgb(33, 37, 41);
+    }
+}
+.boton-4{
+    @include boton;
+    display: grid;
+    justify-items: center;
+    &:hover{
+        background-image: linear-gradient(to right, rgb(92, 187, 146), rgb(100, 60, 200));
+        color: rgb(33, 37, 41);
+    }
+}
+.boton-5{
+    @include boton;
+    display: grid;
+    justify-items: center;
+    &:hover{
+        background-image: linear-gradient(to right, rgb(92, 187, 146), rgb(100, 60, 200));
+        color: rgb(33, 37, 41);
+    }
+}
+.boton-6{
+    @include boton;
+    display: grid;
+    justify-items: center;
+    &:hover{
+        background-image: linear-gradient(to right, rgb(92, 187, 146), rgb(100, 60, 200));
+        color: rgb(33, 37, 41);
+    }
+}
+
